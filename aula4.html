@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Aula 4 - Criando Tabelas com HTML</title>
+	</head>
+	<body>
+        <h1>Aprendendo a criar Tabelas com HTML</h1>
+
+        <table border="2" width="500px" cellspacing="2" bgcolor="#000">
+            <thead>
+                <tr bgcolor="#fff" align="center">
+                    <td colspan="2">Alunos Matriculados</td>
+                    <td>2022/1</td>
+                </tr>
+                <tr bgcolor="#aadddd">
+                    <th>NOME</th>
+                    <th>CURSO</th>
+                    <th>CIDADE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr bgcolor="#fff" align="center">
+                    <td rowspan="2">Natan</td>
+                    <td>ADS</td>
+                    <td rowspan="2">Esteio</td>
+                </tr>
+                <tr bgcolor="#fff" align="center">
+                    <!-- <td>Natan</td> -->
+                    <td>SPI</td>
+                    <!-- <td>Esteio</td> -->
+                </tr>
+                <tr  bgcolor="#fff" align="center">
+                    <td>Haydi</td>
+                    <td>SPI</td>
+                    <td>Poa</td>
+                </tr>
+                <tr bgcolor="#fff" align="center">
+                    <td>Patrick</td>
+                    <td>ADS</td>
+                    <td>Canoas</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr bgcolor="#fff" align="center">
+                    <td colspan="3">Lista de alunos de 2022</td>                    
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>
